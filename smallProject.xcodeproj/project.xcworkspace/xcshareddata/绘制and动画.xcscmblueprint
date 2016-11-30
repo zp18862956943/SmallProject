@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "08e38b45-f842-4946-bcab-e71ddecc8284++9266",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "08e38b45-f842-4946-bcab-e71ddecc8284++9266" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "08e38b45-f842-4946-bcab-e71ddecc8284++9266" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5CF5C1F9-F8BF-48D2-9DAC-738A9ACD250A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "08e38b45-f842-4946-bcab-e71ddecc8284++9266" : "smallProject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "绘制and动画",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "绘制and动画.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/iOSManager",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "08e38b45-f842-4946-bcab-e71ddecc8284++9266"
+    }
+  ]
+}

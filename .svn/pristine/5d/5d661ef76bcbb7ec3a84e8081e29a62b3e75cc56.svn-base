@@ -1,0 +1,30 @@
+//
+//  ViewController1.m
+//  图形绘制动画
+//
+//  Created by zhoupeng on 2016/11/9.
+//  Copyright © 2016年 ztt. All rights reserved.
+//
+
+#import "ViewController1.h"
+#import "KView.h"
+#import "Masonry.h"
+@interface ViewController1 ()
+
+@end
+
+@implementation ViewController1
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    KView *view = [[KView alloc]init];
+    view.selectIndex = 0;
+    [self.view addSubview:view];
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        __weak __typeof(self) weakSelf = self;
+        make.center.equalTo(weakSelf.view);
+        make.width.height.equalTo(@200);
+    }];
+}
+
+@end
