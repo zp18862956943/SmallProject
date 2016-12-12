@@ -20,8 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"图形绘制动画";
-    viewControllersArr = [NSArray arrayWithObjects:@"ViewController0",@"ViewController1",@"ViewController2",@"ViewController3",@"ViewController4",@"ViewController5",@"ViewController6",nil];
-    CategoryNameArr = [NSArray arrayWithObjects:@"绘制三角形",@"各种图形效果",@"imageView动画",@"view移动动画",@"plist数据读取",@"直接fmdb",@"封装类FMDB", nil];
+    viewControllersArr = [NSArray arrayWithObjects:@"ViewController0",@"ViewController1",@"ViewController2",@"ViewController3",@"ViewController4",@"ViewController5",@"ViewController6",@"ViewController7",@"ViewController8",nil];
+    CategoryNameArr = [NSArray arrayWithObjects:@"绘制三角形",@"各种图形效果",@"imageView动画",@"view移动动画",@"plist数据读取",@"直接fmdb",@"封装类FMDB",@"模型操作数据库（推荐）", @"FTP具体操作",nil];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
 }
 
