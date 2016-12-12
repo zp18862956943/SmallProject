@@ -1,16 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "08e38b45-f842-4946-bcab-e71ddecc8284++9266",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AC4CDC65C05E2F9FD8FDD5645519FF312379AA90",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "08e38b45-f842-4946-bcab-e71ddecc8284++9266" : {
+    "AC4CDC65C05E2F9FD8FDD5645519FF312379AA90" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "08e38b45-f842-4946-bcab-e71ddecc8284++9266" : 9223372036854775807
+    "AC4CDC65C05E2F9FD8FDD5645519FF312379AA90" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D59A233E-17EE-45B0-923D-4D96AADCC309",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "08e38b45-f842-4946-bcab-e71ddecc8284++9266" : "smallProject\/"
+    "AC4CDC65C05E2F9FD8FDD5645519FF312379AA90" : "smallProject\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "smallProject",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,7 +19,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/iOSManager",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "08e38b45-f842-4946-bcab-e71ddecc8284++9266"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC4CDC65C05E2F9FD8FDD5645519FF312379AA90"
     }
   ]
 }
