@@ -70,6 +70,12 @@
 		40BB83AD1DFE3D79004491B1 /* LocalPathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB83AC1DFE3D79004491B1 /* LocalPathTool.m */; };
 		40BB83AF1DFE3DAD004491B1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BB83AE1DFE3DAD004491B1 /* CFNetwork.framework */; };
 		40BB83B11DFE3DB6004491B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BB83B01DFE3DB6004491B1 /* CoreGraphics.framework */; };
+		40BB83FC1DFE6EE3004491B1 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB83F31DFE6EE3004491B1 /* UIImage+Color.m */; };
+		40BB83FD1DFE6EE3004491B1 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB83F51DFE6EE3004491B1 /* MyCollectionViewCell.m */; };
+		40BB83FE1DFE6EE3004491B1 /* HeadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB83F71DFE6EE3004491B1 /* HeadImageView.m */; };
+		40BB83FF1DFE6EE3004491B1 /* MyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB83F91DFE6EE3004491B1 /* MyHeadView.m */; };
+		40BB84001DFE6EE3004491B1 /* MyFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB83FB1DFE6EE3004491B1 /* MyFootView.m */; };
+		40BB84031DFE6EF6004491B1 /* ViewController9.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB84021DFE6EF6004491B1 /* ViewController9.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,6 +226,18 @@
 		40BB83AC1DFE3D79004491B1 /* LocalPathTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPathTool.m; sourceTree = "<group>"; };
 		40BB83AE1DFE3DAD004491B1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		40BB83B01DFE3DB6004491B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40BB83F21DFE6EE3004491B1 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		40BB83F31DFE6EE3004491B1 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		40BB83F41DFE6EE3004491B1 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		40BB83F51DFE6EE3004491B1 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		40BB83F61DFE6EE3004491B1 /* HeadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadImageView.h; sourceTree = "<group>"; };
+		40BB83F71DFE6EE3004491B1 /* HeadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadImageView.m; sourceTree = "<group>"; };
+		40BB83F81DFE6EE3004491B1 /* MyHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeadView.h; sourceTree = "<group>"; };
+		40BB83F91DFE6EE3004491B1 /* MyHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeadView.m; sourceTree = "<group>"; };
+		40BB83FA1DFE6EE3004491B1 /* MyFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFootView.h; sourceTree = "<group>"; };
+		40BB83FB1DFE6EE3004491B1 /* MyFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFootView.m; sourceTree = "<group>"; };
+		40BB84011DFE6EF6004491B1 /* ViewController9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController9.h; sourceTree = "<group>"; };
+		40BB84021DFE6EF6004491B1 /* ViewController9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController9.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,6 +370,7 @@
 		40871E2F1DD2ED08004C2EE0 /* 效果展示 */ = {
 			isa = PBXGroup;
 			children = (
+				40BB83F11DFE6E8E004491B1 /* 仿管家先生 瀑布流 */,
 				40BB837B1DFE3C6B004491B1 /* FTP_Tool */,
 				40BB836E1DFE3B01004491B1 /* 模型操作数据库 */,
 				409FB9501DEEA25B0079A2A4 /* fmdb */,
@@ -554,6 +573,25 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		40BB83F11DFE6E8E004491B1 /* 仿管家先生 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				40BB83F21DFE6EE3004491B1 /* UIImage+Color.h */,
+				40BB83F31DFE6EE3004491B1 /* UIImage+Color.m */,
+				40BB83F41DFE6EE3004491B1 /* MyCollectionViewCell.h */,
+				40BB83F51DFE6EE3004491B1 /* MyCollectionViewCell.m */,
+				40BB83F61DFE6EE3004491B1 /* HeadImageView.h */,
+				40BB83F71DFE6EE3004491B1 /* HeadImageView.m */,
+				40BB83F81DFE6EE3004491B1 /* MyHeadView.h */,
+				40BB83F91DFE6EE3004491B1 /* MyHeadView.m */,
+				40BB83FA1DFE6EE3004491B1 /* MyFootView.h */,
+				40BB83FB1DFE6EE3004491B1 /* MyFootView.m */,
+				40BB84011DFE6EF6004491B1 /* ViewController9.h */,
+				40BB84021DFE6EF6004491B1 /* ViewController9.m */,
+			);
+			path = "仿管家先生 瀑布流";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -705,6 +743,7 @@
 				40BB839D1DFE3C6B004491B1 /* GRDeleteRequest.m in Sources */,
 				40871E431DD2ED08004C2EE0 /* ViewController0.m in Sources */,
 				40871E661DD2ED35004C2EE0 /* MASCompositeConstraint.m in Sources */,
+				40BB84001DFE6EE3004491B1 /* MyFootView.m in Sources */,
 				409FB95D1DEEA25B0079A2A4 /* FMDatabase.m in Sources */,
 				40871E441DD2ED08004C2EE0 /* CGContextObject.m in Sources */,
 				40BB83A21DFE3C6B004491B1 /* NSString+FtpTranscoding.m in Sources */,
@@ -713,6 +752,8 @@
 				40871E681DD2ED35004C2EE0 /* MASConstraintMaker.m in Sources */,
 				40871E6E1DD2ED35004C2EE0 /* View+MASAdditions.m in Sources */,
 				405BB8151DD41B86002F0412 /* ViewController3.m in Sources */,
+				40BB83FE1DFE6EE3004491B1 /* HeadImageView.m in Sources */,
+				40BB83FD1DFE6EE3004491B1 /* MyCollectionViewCell.m in Sources */,
 				40871E471DD2ED08004C2EE0 /* RedGradientColor.m in Sources */,
 				409FB95F1DEEA25B0079A2A4 /* FMDatabasePool.m in Sources */,
 				40871E6A1DD2ED35004C2EE0 /* MASViewAttribute.m in Sources */,
@@ -743,7 +784,10 @@
 				40871E721DD2ED80004C2EE0 /* MainTableViewController.m in Sources */,
 				409FB9611DEEA25B0079A2A4 /* FMResultSet.m in Sources */,
 				40871E461DD2ED08004C2EE0 /* KView.m in Sources */,
+				40BB83FC1DFE6EE3004491B1 /* UIImage+Color.m in Sources */,
+				40BB84031DFE6EF6004491B1 /* ViewController9.m in Sources */,
 				409FB9641DEEA2800079A2A4 /* YZKDBTool.m in Sources */,
+				40BB83FF1DFE6EE3004491B1 /* MyHeadView.m in Sources */,
 				409FB95E1DEEA25B0079A2A4 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

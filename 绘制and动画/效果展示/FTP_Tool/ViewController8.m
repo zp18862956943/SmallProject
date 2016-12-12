@@ -17,8 +17,15 @@
 
 @end
 
+
 @implementation ViewController8
 
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [self askListBtnClick:nil];
+}
 - (void)startFtpInit
 {
     [ZBFtpTools ZBFtp_setupInitWithHost:FTP_Address
